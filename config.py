@@ -48,7 +48,7 @@ database_config = dict(
     # 如果是使用mysql+pymysql，在确认所有的库表列都是uft8编码后，依然有字符编码报错，
     # 可以尝试在该url末尾加上queryString charset=utf8
     # mysql+pymysql://<username>:<password>@<host>/<dbname>[?<options>]
-    engine_url='mysql+pymysql://root:kevin@localhost:3306/blog_xtg?charset=utf8',
+    engine_url='mysql+pymysql://root:liuqiong@localhost:3306/blog_xtg?charset=utf8',
     engine_setting=dict(
         echo=False,  # print sql
         echo_pool=False, # 连接池状态日志

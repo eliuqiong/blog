@@ -36,6 +36,9 @@
 	pip3 install -r requirements.txt
 ###### 创建数据库blog_xtg(注意使用utf-8编码)
 ###### 启动redis
+(1). # 启动 redis-server
+1 redis-server
+
 ###### 修改config.py，配置数据库、redis、日志等
 ###### 创建数据库或更新表
 	python3.6 main.py upgradedb
