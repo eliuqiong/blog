@@ -41,9 +41,9 @@
 
 ###### 修改config.py，配置数据库、redis、日志等
 ###### 创建数据库或更新表
-	python3.6 main.py upgradedb
+	python3.8 main.py upgradedb
 ###### 启动server
-	python3.6 main.py
+	python3.8 main.py
 
 ###### 初始化管理员账户
 访问http://[host]:[port]/super/init注册管理员账号。
